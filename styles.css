@@ -4,21 +4,22 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 20px;
-  justify-content: center;
-  align-content: center;
-  margin-left:10px;
-  margin-top:10px;
+  gap: 10px;
+  
 }
 
 /* Style the inner squares */
 .inner-square {
   background-color: green; 
+  margin:10px;
 }
 
 /* Style the circles */
 .circle {
+/*   width:90%;
+  height:90%; */
+  margin:10px;
   background-color: blue;
-  border-radius: 50%; /* Make it a circle */
+  border-radius: 50%; 
  
 }
